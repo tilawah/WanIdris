@@ -3,14 +3,14 @@ body {
   font: normal normal 13px/1.4 Segoe, "Segoe UI", Calibri, Helmet, FreeSans, Sans-Serif;
 }
 
-.tree ul {
+.wanIdris-tr ul {
   margin: 0 0 0 10.5em;
   padding: 0;
   list-style: none;
   color: #369;
   position: relative;
 }
-.tree ul:before {
+.wanIdris-tr ul:before {
   content: "";
   display: block;
   width: 0px;
@@ -22,7 +22,7 @@ body {
   background: white;
   z-index: -2;
 }
-.tree li {
+.wanIdris-tr li {
   font-weight: bold;
   line-height: 3em;
   margin: 0;
@@ -30,7 +30,7 @@ body {
   position: relative;
   z-index: -1;
 }
-.tree li:before {
+.wanIdris-tr li:before {
   content: "";
   display: block;
   height: 100%;
@@ -41,31 +41,31 @@ body {
   width: 2em;
   z-index: -2;
 }
-.tree li:first-child > .category .up {
+.wanIdris-tr li:first-child > .category .up {
   border-left: none;
 }
-.tree li:last-child > .category .down,
-.tree li:last-child > .sub-category .down,
-.tree li:last-child > .skill .down,
-.tree li:last-child > .attribute .down {
+.wanIdris-tr li:last-child > .category .down,
+.wanIdris-tr li:last-child > .sub-category .down,
+.wanIdris-tr li:last-child > .wanIdris-anakCucu .down,
+.wanIdris-tr li:last-child > .attribute .down {
   border-left: none;
 }
-.tree li:last-child:before {
+.wanIdris-tr li:last-child:before {
   background: white;
   bottom: 0;
   height: auto;
   top: 2em;
 }
-.tree .category .up, .tree .category .down,
-.tree .sub-category .up,
-.tree .sub-category .down,
-.tree .skill .up,
-.tree .skill .down,
-.tree .attribute .up,
-.tree .attribute .down {
+.wanIdris-tr .category .up, .wanIdris-tr .category .down,
+.wanIdris-tr .sub-category .up,
+.wanIdris-tr .sub-category .down,
+.wanIdris-tr .wanIdris-anakCucu .up,
+.wanIdris-tr .wanIdris-anakCucu .down,
+.wanIdris-tr .attribute .up,
+.wanIdris-tr .attribute .down {
   border-left: solid 1px #369;
 }
-.tree .entry {
+.wanIdris-tr .entry {
   background-color: white;
   box-sizing: border-box;
   position: relative;
@@ -73,15 +73,15 @@ body {
   height: 3.5em;
   width: 13em;
 }
-.tree .entry .up, .tree .entry .down {
+.wanIdris-tr .entry .up, .wanIdris-tr .entry .down {
   box-sizing: border-box;
   height: 50%;
   min-width: 2em;
 }
-.tree .entry .down {
+.wanIdris-tr .entry .down {
   border-top: solid 1px #369;
 }
-.tree .entry .card {
+.wanIdris-tr .entry .card {
   box-sizing: border-box;
   position: absolute;
   top: 0px;
@@ -102,13 +102,13 @@ body {
   z-index: 1;
 }
 
-ul.tree {
+ul.wanIdris-tr {
   margin-left: 10px;
 }
-ul.tree div.category {
+ul.wanIdris-tr div.category {
   top: 0px;
 }
-ul.tree > li:before {
+ul.wanIdris-tr > li:before {
   content: "";
   display: block;
   width: 0px;
@@ -118,24 +118,24 @@ ul.tree > li:before {
   background: white;
   z-index: -2;
 }
-ul.tree > li:last-child:before {
+ul.wanIdris-tr > li:last-child:before {
   border-left: none !important;
 }
-ul.tree > li:last-child .up {
+ul.wanIdris-tr > li:last-child .up {
   border-left: 1px solid #369;
 }
-ul.tree div.sub-category {
+ul.wanIdris-tr div.sub-category {
   top: 0px;
 }
-ul.tree div.skill {
+ul.wanIdris-tr div.wanIdris-anakCucu {
   top: 0px;
 }
-ul.tree .sticky {
+ul.wanIdris-tr .sticky {
   position: -webkit-sticky;
   position: sticky;
   width: 100%;
 }
 
-.container {
+.wanIdris {
   padding: 0px 0px 10px 10px;
 }
